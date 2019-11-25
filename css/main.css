@@ -21,10 +21,6 @@ body {
   margin: 0;
 }
 
-.dino-wrap {
-
-}
-
 .dino-img img {
   width: 100%;
   display: block;
@@ -32,14 +28,41 @@ body {
 
 .dino-caption {
   background-color: #e2e2e2;
+  padding: 1.2rem;
 }
 
 .dino-caption h2 {
   font-family: Denk One, sans-serif;
   margin: 0 0 1rem;
-  padding-top: 1rem;
+  font-size: 1.5rem;
 }
 
 .dino-caption p {
-  padding: 0 0 1rem;
+  margin: 0;
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
 }
